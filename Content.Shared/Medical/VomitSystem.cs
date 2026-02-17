@@ -59,7 +59,9 @@ public sealed class VomitSystem : EntitySystem
                 out var sol))
             return;
 
+        // Empty stomach solution into the new vomit solution
         args.Args.Sol.AddSolution(sol, _proto);
+        sol.RemoveAllSolution();
 
         // Remind the stomach that it's empty.
         _solutionContainer.UpdateChemicals(ent.Comp.Solution.Value);
