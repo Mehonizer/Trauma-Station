@@ -3114,3 +3114,10 @@ Entries:
   id: 376
   time: '2026-02-26T20:13:27.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/884
+- author: caoimhan2008
+  changes:
+  - type: Tweak
+    message: xenomorphs can now move in space to make playing with lag less frustrating
+  id: 377
+  time: '2026-02-26T20:30:08.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/874
