@@ -3753,3 +3753,10 @@ Entries:
   id: 443
   time: '2026-03-07T13:13:22.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1089
+- author: JohnJJohn
+  changes:
+  - type: Fix
+    message: Fixed baseball bats requring a diploma to make
+  id: 444
+  time: '2026-03-07T13:24:24.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1091
