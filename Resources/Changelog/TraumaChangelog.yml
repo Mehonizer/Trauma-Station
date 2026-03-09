@@ -3983,3 +3983,12 @@ Entries:
   id: 469
   time: '2026-03-09T09:23:54.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1152
+- author: deltanedas
+  changes:
+  - type: Tweak
+    message: >-
+      Item quality now scales its durability, e.g. bats and shivs last longer or
+      shorter.
+  id: 470
+  time: '2026-03-09T11:24:08.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1151
