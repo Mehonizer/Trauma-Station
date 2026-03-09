@@ -4061,3 +4061,14 @@ Entries:
   id: 478
   time: '2026-03-09T22:23:07.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1164
+- author: deltanedas
+  changes:
+  - type: Add
+    message: >-
+      Added recipe support to the deep fryer, currently you can fry potatos in
+      it to make fries.
+  - type: Fix
+    message: Fixed deep fryer interactions not being predicted...
+  id: 479
+  time: '2026-03-09T23:43:35.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1168
