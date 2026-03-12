@@ -4197,3 +4197,10 @@ Entries:
   id: 494
   time: '2026-03-11T21:42:34.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1195
+- author: assripper.
+  changes:
+  - type: Add
+    message: xenomorph queens now recall the emergency shuttle just like blob
+  id: 495
+  time: '2026-03-12T10:05:11.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1024
