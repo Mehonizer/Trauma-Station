@@ -4270,3 +4270,19 @@ Entries:
   id: 501
   time: '2026-03-13T06:37:26.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1226
+- author: deltanedas
+  changes:
+  - type: Tweak
+    message: >-
+      Changed how skill buying works, go update your characters again. You get
+      much fewer points but it's 1 for 1 mastery level. You can be good at a few
+      skills.
+  - type: Tweak
+    message: >-
+      You can no longer remove your species default skills. Character skills are
+      just offsets added to it now.
+  - type: Remove
+    message: Removed free roundstart martial arts...
+  id: 502
+  time: '2026-03-13T07:31:58.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1221
