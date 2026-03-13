@@ -4229,3 +4229,10 @@ Entries:
   id: 498
   time: '2026-03-12T22:20:05.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1217
+- author: JohnJJohn
+  changes:
+  - type: Add
+    message: Added a cool end credits sequence based off the one in monkiestation!
+  id: 499
+  time: '2026-03-13T00:36:04.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1214
