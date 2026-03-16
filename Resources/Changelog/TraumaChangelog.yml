@@ -4607,3 +4607,14 @@ Entries:
   id: 541
   time: '2026-03-15T19:27:04.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1323
+- author: Armok
+  changes:
+  - type: Add
+    message: Added new batch of patreon items.
+  - type: Fix
+    message: Fixed some of the lag sources
+  - type: Add
+    message: Some sodas give you small buffs when drank
+  id: 542
+  time: '2026-03-16T06:05:57.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1344
