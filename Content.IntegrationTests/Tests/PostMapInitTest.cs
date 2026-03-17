@@ -64,6 +64,7 @@ namespace Content.IntegrationTests.Tests
             {"/Maps/Shuttles/ShuttleEvent/instigator.yml", ["ShuttleGunFriendship"]},
             // <Trauma>
             {"/Maps/_Goobstation/gate.yml", ["ShuttleGunPerforator"]},
+            {"/Maps/_Trauma/kettle.yml", ["RubberStampSyndicate"]}, // exterior rocks loot
             // </Trauma>
         };
 
