@@ -5180,3 +5180,10 @@ Entries:
   id: 609
   time: '2026-03-22T09:59:28.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1519
+- author: deltanedas
+  changes:
+  - type: Remove
+    message: Carp tails no longer make you super fast.
+  id: 610
+  time: '2026-03-22T10:09:23.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1520
