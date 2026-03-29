@@ -5753,3 +5753,14 @@ Entries:
   id: 676
   time: '2026-03-29T15:50:44.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1677
+- author: deltanedas
+  changes:
+  - type: Tweak
+    message: All mechs now get tile movement.
+  - type: Tweak
+    message: >-
+      Mech pilots are now protected much better. Pilots of the Durand and Mauler
+      are completely immune to damage while the mech is intact!
+  id: 677
+  time: '2026-03-29T16:58:26.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1685
