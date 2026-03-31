@@ -11,8 +11,7 @@
   - type: MaterialStorage
     whitelist:
       tags:
-      - Sheet
-      - RawMaterial
+      - IngotWorkable # have to heat it up to the right temperature
   - type: Lathe
     idleState: icon
     runningState: burning
@@ -50,5 +49,5 @@
   - type: Animateable
   - type: Construction
     graph: Anvil
-    node: finish
+    node: anvil
   - type: PlaceableSurface
