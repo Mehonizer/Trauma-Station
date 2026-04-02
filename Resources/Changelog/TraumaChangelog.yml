@@ -6176,3 +6176,10 @@ Entries:
   id: 712
   time: '2026-04-02T17:36:33.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1788
+- author: JohnJJohn
+  changes:
+  - type: Fix
+    message: Fixed V scroll bar not being hidden in the credits
+  id: 713
+  time: '2026-04-02T18:05:22.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1789
