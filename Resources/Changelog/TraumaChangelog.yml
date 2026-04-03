@@ -6340,3 +6340,10 @@ Entries:
   id: 733
   time: '2026-04-03T23:26:42.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1844
+- author: deltanedas
+  changes:
+  - type: Tweak
+    message: You can no longer use mech guns just by holding them...
+  id: 734
+  time: '2026-04-03T23:37:06.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1841
