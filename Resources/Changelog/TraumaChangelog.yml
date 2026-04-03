@@ -6252,3 +6252,10 @@ Entries:
   id: 721
   time: '2026-04-03T11:09:10.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1813
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Fixed xenos not being able to evolve....
+  id: 722
+  time: '2026-04-03T11:14:56.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1816
