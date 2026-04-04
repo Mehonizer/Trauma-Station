@@ -74,7 +74,13 @@ public sealed class AddUplinkCommand : LocalizedEntityCommands
         }
 
         // Finally add uplink
-        if (!_uplinkSystem.AddUplink(user, 100, uplinkEntity: uplinkEntity)) // Goob edit - 100 TC
+        var result = _uplinkSystem.AddUplink(user, 100, out var code, uplinkEntity: uplinkEntity, giveDiscounts: isDiscounted); // Trauma - 20 -> 100
+
+        if (code != null && result == AddUplinkResult.Pda)
+            shell.WriteLine(Loc.GetString("add-uplink-command-success-pda", ("code", string.Join("-", code).Replace("sharp", "#"))));
+        else if (result == AddUplinkResult.Implant)
+            shell.WriteLine(Loc.GetString("add-uplink-command-success-implant"));
+        else if (result == AddUplinkResult.Failure)
             shell.WriteLine(Loc.GetString("add-uplink-command-error-2"));
     }
 
