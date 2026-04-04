@@ -6361,3 +6361,10 @@ Entries:
   id: 736
   time: '2026-04-04T00:51:27.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1848
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Fixed zombie infection barely doing any damage.
+  id: 737
+  time: '2026-04-04T12:01:06.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1856
