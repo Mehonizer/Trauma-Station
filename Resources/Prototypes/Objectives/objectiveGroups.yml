@@ -36,7 +36,8 @@
   weights:
     KillRandomPersonObjective: 1
     PermaKillRandomPersonObjective: 0.5 # Goobstation - straight up kill someone with no maroons
-    KillRandomHeadObjective: 0.2
+    KillStationAiObjective: 0.25
+    KillRandomHeadObjective: 0.25
 
 - type: weightedRandom
   id: TraitorObjectiveGroupState
