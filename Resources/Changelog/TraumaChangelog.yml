@@ -6503,3 +6503,10 @@ Entries:
   id: 753
   time: '2026-04-07T18:45:57.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1905
+- author: JohnJJohn
+  changes:
+  - type: Tweak
+    message: Possibly fixed credits
+  id: 754
+  time: '2026-04-07T19:19:46.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1907
