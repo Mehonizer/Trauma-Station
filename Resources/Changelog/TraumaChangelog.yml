@@ -6496,3 +6496,10 @@ Entries:
   id: 752
   time: '2026-04-07T16:16:40.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1904
+- author: Armok
+  changes:
+  - type: Fix
+    message: 15 Second lag delay bug
+  id: 753
+  time: '2026-04-07T18:45:57.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1905
