@@ -6609,3 +6609,10 @@ Entries:
   id: 765
   time: '2026-04-09T07:30:10.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1927
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Fixed tendons not dying in spaced plating.
+  id: 766
+  time: '2026-04-09T07:40:59.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1928
