@@ -6648,3 +6648,10 @@ Entries:
   id: 770
   time: '2026-04-09T10:13:51.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1935
+- author: deltanedas
+  changes:
+  - type: Tweak
+    message: Forged weapons are now contraband.
+  id: 771
+  time: '2026-04-09T17:42:37.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1946
