@@ -6634,3 +6634,10 @@ Entries:
   id: 768
   time: '2026-04-09T09:46:29.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1932
+- author: MayasMischef
+  changes:
+  - type: Remove
+    message: Removed BSO
+  id: 769
+  time: '2026-04-09T09:57:47.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1934
