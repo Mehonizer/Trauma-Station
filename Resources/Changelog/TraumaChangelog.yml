@@ -6671,3 +6671,10 @@ Entries:
   id: 773
   time: '2026-04-10T14:10:20.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1936
+- author: deltanedas
+  changes:
+  - type: Remove
+    message: Xeno nest lavaland ruin no longer has live xenos...
+  id: 774
+  time: '2026-04-10T14:28:42.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1962
