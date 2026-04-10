@@ -6701,3 +6701,10 @@ Entries:
   id: 777
   time: '2026-04-10T19:53:29.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1967
+- author: deltanedas
+  changes:
+  - type: Remove
+    message: Removed xeno evac roundstalling
+  id: 778
+  time: '2026-04-10T20:29:16.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1968
