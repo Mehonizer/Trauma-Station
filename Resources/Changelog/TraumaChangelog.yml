@@ -6886,3 +6886,14 @@ Entries:
   id: 796
   time: '2026-04-13T19:53:52.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2011
+- author: Aviu, Durk
+  changes:
+  - type: Add
+    message: >-
+      Double-bladed energy sword flipping effect now makes you dodge bullets and
+      move at higher speed but only triggered when left-click attacking any mob.
+  - type: Tweak
+    message: Desword wounding reduced 7 -> 4.
+  id: 797
+  time: '2026-04-14T06:26:23.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1916
