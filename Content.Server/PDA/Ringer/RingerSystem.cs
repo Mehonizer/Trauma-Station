@@ -1,5 +1,4 @@
 using System.Linq;
-using System.Runtime.InteropServices;
 using Content.Server.Store.Systems;
 using Content.Shared.PDA;
 using Content.Shared.PDA.Ringer;
@@ -23,7 +22,7 @@ public sealed class RingerSystem : SharedRingerSystem
         SubscribeLocalEvent<RingerComponent, MapInitEvent>(OnMapInit);
         SubscribeLocalEvent<RingerComponent, CurrencyInsertAttemptEvent>(OnCurrencyInsert);
 
-        SubscribeLocalEvent<RingerUplinkComponent, GenerateUplinkCodeEvent<Note[]>>(OnGenerateUplinkCode); // Goob - generic ooplink event
+        SubscribeLocalEvent<RingerUplinkComponent, GenerateUplinkCodeEvent>(OnGenerateUplinkCode);
     }
 
     /// <summary>
@@ -52,9 +51,9 @@ public sealed class RingerSystem : SharedRingerSystem
     }
 
     /// <summary>
-    /// Handles the <see cref="GenerateUplinkCodeEvent{T}"/> for generating an uplink code.
+    /// Handles the <see cref="GenerateUplinkCodeEvent"/> for generating an uplink code.
     /// </summary>
-    private void OnGenerateUplinkCode(Entity<RingerUplinkComponent> ent, ref GenerateUplinkCodeEvent<Note[]> ev)
+    private void OnGenerateUplinkCode(Entity<RingerUplinkComponent> ent, ref GenerateUplinkCodeEvent ev)
     {
         var code = GenerateRingtone();
 
@@ -123,14 +122,13 @@ public sealed class RingerSystem : SharedRingerSystem
 }
 
 /// <summary>
-/// Event raised to generate a new uplink code.
-/// The type parameter determines the code format (e.g. Note[] for PDA ringer, int[] for pen spin).
+/// Event raised to generate a new uplink code for a PDA.
 /// </summary>
 [ByRefEvent]
-public record struct GenerateUplinkCodeEvent<T> // Goob - genericised ooplink event
+public record struct GenerateUplinkCodeEvent
 {
     /// <summary>
     /// The generated uplink code (filled in by the event handler).
     /// </summary>
-    public T? Code; // Goob - genericised ooplink event
+    public Note[]? Code;
 }

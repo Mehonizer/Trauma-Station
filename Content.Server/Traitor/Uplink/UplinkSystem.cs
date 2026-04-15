@@ -1,10 +1,6 @@
-// <Trauma>
-
 using System.Linq;
-using Content.Server.StoreDiscount.Systems;
-// </Trauma>
-using Content.Goobstation.Common.Traitor;
 using Content.Server.Store.Systems;
+using Content.Server.StoreDiscount.Systems;
 using Content.Shared.FixedPoint;
 using Content.Shared.Hands.EntitySystems;
 using Content.Shared.Implants;
@@ -19,9 +15,6 @@ namespace Content.Server.Traitor.Uplink;
 
 public sealed class UplinkSystem : EntitySystem
 {
-    // <Trauma>
-    [Dependency] private readonly GoobCommonUplinkSystem _goobUplink = default!;
-    // </Trauma>
     [Dependency] private readonly InventorySystem _inventorySystem = default!;
     [Dependency] private readonly SharedHandsSystem _handsSystem = default!;
     [Dependency] private readonly IPrototypeManager _proto = default!;
@@ -44,31 +37,19 @@ public sealed class UplinkSystem : EntitySystem
     public bool AddUplink(
         EntityUid user,
         FixedPoint2 balance,
-        ProtoId<UplinkPreferencePrototype>? preferenceId,
-        out EntityUid? uplinkTarget,
-        out SetupUplinkEvent? setupEvent,
         EntityUid? uplinkEntity = null,
-        bool giveDiscounts = false
-        ) // Goob - added preference, uplinkTarget, setupEvent
+        bool giveDiscounts = false)
     {
         // Try to find target item if none passed
 
-        var preference = _proto.Index(preferenceId);
-        uplinkTarget = uplinkEntity;
-        setupEvent = null;
+        uplinkEntity ??= FindUplinkTarget(user);
 
-        if (uplinkTarget == null && preference?.SearchComponents != null)
-            uplinkTarget = _goobUplink.FindUplinkTarget(user, preference.SearchComponents);
-
-        if (uplinkTarget == null)
+        if (uplinkEntity == null)
             return ImplantUplink(user, balance, giveDiscounts);
 
-        EnsureComp<UplinkComponent>(uplinkTarget.Value);
-        SetUplink(user, uplinkTarget.Value, balance, giveDiscounts);
+        EnsureComp<UplinkComponent>(uplinkEntity.Value);
 
-        var ev = new SetupUplinkEvent { User = user };
-        RaiseLocalEvent(uplinkTarget.Value, ref ev);
-        setupEvent = ev;
+        SetUplink(user, uplinkEntity.Value, balance, giveDiscounts);
 
         // TODO add BUI. Currently can't be done outside of yaml -_-
         // ^ What does this even mean?
