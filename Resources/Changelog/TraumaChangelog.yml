@@ -7078,3 +7078,14 @@ Entries:
   id: 820
   time: '2026-04-18T12:57:01.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2108
+- author: TurboTrackerss14
+  changes:
+  - type: Tweak
+    message: 'Syndicate Elite hardsuit brute resistances lowered to 20% from 40%. '
+  - type: Remove
+    message: Syndicate Elite hardsuit no longer has slowdown.
+  - type: Tweak
+    message: Sydnciate Elite hardsuit price increased to 80tc from 75tc.
+  id: 821
+  time: '2026-04-18T15:09:24.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2110
