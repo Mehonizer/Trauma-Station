@@ -7185,3 +7185,20 @@ Entries:
   id: 831
   time: '2026-04-20T09:04:56.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2129
+- author: Armok
+  changes:
+  - type: Tweak
+    message: Xenomorphs slowly die while in open space.
+  - type: Tweak
+    message: Cargo defense budget increased.
+  - type: Tweak
+    message: Durability increased for most real weapons.
+  - type: Tweak
+    message: 'Energy bola can be removed quickly '
+  - type: Add
+    message: Drill heads for fixing mining drills
+  - type: Add
+    message: Custom drill durability
+  id: 832
+  time: '2026-04-20T20:39:10.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1911
