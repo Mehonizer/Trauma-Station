@@ -7171,3 +7171,10 @@ Entries:
   id: 829
   time: '2026-04-19T17:21:54.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2074
+- author: Speebro
+  changes:
+  - type: Tweak
+    message: Foam and Smoke reacts before most other chemical reactions
+  id: 830
+  time: '2026-04-20T07:15:04.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2128
