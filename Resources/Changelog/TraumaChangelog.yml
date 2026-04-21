@@ -7229,3 +7229,10 @@ Entries:
   id: 835
   time: '2026-04-21T01:08:39.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2147
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Fixed getting mutated/scrambled DNA not updating your blood's DNA value.
+  id: 836
+  time: '2026-04-21T16:54:58.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2157
