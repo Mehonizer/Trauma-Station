@@ -7258,3 +7258,10 @@ Entries:
   id: 838
   time: '2026-04-22T05:49:52.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2162
+- author: deltanedas
+  changes:
+  - type: Tweak
+    message: Mold can now rarely make you sick.
+  id: 839
+  time: '2026-04-22T06:57:30.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2166
