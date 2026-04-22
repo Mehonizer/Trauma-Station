@@ -7320,3 +7320,12 @@ Entries:
   id: 846
   time: '2026-04-22T20:59:48.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2180
+- author: deltanedas
+  changes:
+  - type: Tweak
+    message: >-
+      Most non-weapon crafting recipes no longer require levels in any skills to
+      make.
+  id: 847
+  time: '2026-04-22T21:26:35.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2182
