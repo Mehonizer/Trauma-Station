@@ -7385,3 +7385,10 @@ Entries:
   id: 855
   time: '2026-04-24T09:13:17.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2214
+- author: NoElkaTheGod
+  changes:
+  - type: Add
+    message: Ported Decapoids, a new playable species, from impstation.
+  id: 856
+  time: '2026-04-24T10:20:36.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1351
